@@ -1,0 +1,24 @@
+export const profile = {
+  name: "Pranav Bhawari",
+  title: "Backend & Full-Stack Engineer",
+  tagline: "Building scalable REST APIs, secure authentication systems, and cloud-ready web applications.",
+  email: "pranavbhawari10@gmail.com",
+  phone: "+91 9175226197",
+  location: "Pune, India",
+  resumePath: "https://drive.google.com/file/d/1TjP7ykq7EBN8eGRKXsOHZQpZ7v7pYhGm/view?usp=sharing",
+  social: {
+    github: "https://github.com/Pranav6197",
+    linkedin: "https://www.linkedin.com/in/pranav-bhawari-479b59280/",
+    leetcode: "https://leetcode.com/u/Pranav_Bhawari/",
+    email: "mailto:pranavbhawari10@gmail.com",
+  },
+  nav: [
+    { id: "hero", label: "Home" },
+    { id: "about", label: "About" },
+    { id: "skills", label: "Skills" },
+    { id: "experience", label: "Experience" },
+    { id: "projects", label: "Projects" },
+    { id: "education", label: "Education" },
+    { id: "contact", label: "Contact" },
+  ],
+} as const;
