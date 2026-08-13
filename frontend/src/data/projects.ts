@@ -19,7 +19,7 @@ export const projects: Project[] = [
       "Engineered a complete REST API supporting authentication, authorization, content management, pagination, and filtering, reducing data retrieval overhead by approximately 40%. Integrated AWS S3 and Multer for secure cloud image storage, multi-file uploads, cover photo selection, and gallery management, reducing local storage dependency by 90%.",
     tech: ["Node.js", "Express.js", "React.js", "MongoDB", "AWS S3", "AWS SQS", "AWS Lambda", "Docker", "JWT"],
     github: "https://github.com/Pranav6197/travelgo",
-    demo: "[DEMO_URL_PLACEHOLDER]",
+    demo: "https://travelgo-pearl.vercel.app/",
     featured: true,
   },
   {
