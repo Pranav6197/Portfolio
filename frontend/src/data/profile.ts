@@ -19,6 +19,7 @@ export const profile = {
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "certification", label: "Certification" },
     { id: "contact", label: "Contact" },
   ],
 } as const;

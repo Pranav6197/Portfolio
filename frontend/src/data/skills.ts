@@ -40,7 +40,18 @@ export const skillCategories: SkillCategory[] = [
   {
     title: "Tools & Practices",
     icon: "wrench",
-    skills: ["Git & GitHub 📚", "Bitbucket", "Postman API Testing 📮", "Jest Testing 🧪", "VS Code", "Agile Development 🔄", "Linux CLI"],
+    skills: [
+      "Git & GitHub 📚",
+      "Bitbucket",
+      "Postman API Testing 📮",
+      "Jest Testing 🧪",
+      "VS Code",
+      "Agile Development 🔄",
+      "Linux CLI",
+      "Claude",
+      "Gemini",
+      "Cursor",
+    ],
   },
   {
     title: "Computer Science Fundamentals",
