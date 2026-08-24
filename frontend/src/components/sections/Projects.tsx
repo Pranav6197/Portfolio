@@ -74,14 +74,16 @@ export function Projects() {
                       <IconGithub className="w-3.5 h-3.5" />
                       GitHub
                     </GlowButton>
-                    <GlowButton
-                      href={project.demo}
-                      external
-                      className="!px-4 !py-2 text-xs"
-                    >
-                      <ExternalLink className="w-3.5 h-3.5" />
-                      Live Demo
-                    </GlowButton>
+                    {project.demo && (
+                      <GlowButton
+                        href={project.demo}
+                        external
+                        className="!px-4 !py-2 text-xs"
+                      >
+                        <ExternalLink className="w-3.5 h-3.5" />
+                        Live Demo
+                      </GlowButton>
+                    )}
                   </div>
 
                   <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none bg-gradient-to-br from-cyan-500/5 via-transparent to-violet-500/5" />

@@ -20,7 +20,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel text-xs sm:text-sm text-cyan-300/90 mb-8"
         >
           <Sparkles className="w-4 h-4" />
-          <span>Computer Engineering Graduate @ VIT Pune · Backend / Full Stack Developer @ Perimeters.io</span>
+          <span>Computer Engineering Graduate @ VIT Pune · Backend / Full Stack Developer @ Codewits Solutions Pvt. Ltd</span>
         </motion.div>
 
         <div className="max-w-4xl">

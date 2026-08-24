@@ -7,27 +7,27 @@ import { SectionHeading } from "../ui/SectionHeading";
 export function Experience() {
   return (
     <section id="experience" className="section-padding">
-      <div className="section-container">
+      <div className="section-container max-w-7xl">
         <SectionHeading
           eyebrow="Experience"
           title="Shipping production code as an intern"
           subtitle="Hands-on backend development at Perimeters.io with enterprise-grade tooling and practices."
         />
 
-        <div className="relative">
-          <div className="absolute left-4 md:left-8 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500/50 via-violet-500/30 to-transparent" />
+        <div className="relative ml-5 md:ml-0">
+          <div className="absolute -left-5 md:-left-20 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500/50 via-violet-500/30 to-transparent" />
 
           {experiences.map((exp, index) => (
             <motion.article
               key={exp.company}
-              className="relative pl-12 md:pl-20 pb-12 last:pb-0"
+              className="relative pb-12 last:pb-0"
               initial="hidden"
               whileInView="visible"
               viewport={defaultViewport}
               variants={fadeUp}
               transition={{ duration: 0.55, delay: index * 0.1 }}
             >
-              <div className="absolute left-2 md:left-6 top-2 w-4 h-4 rounded-full bg-cyan-400 shadow-[0_0_16px_rgba(34,211,238,0.6)] ring-4 ring-[#07070d]" />
+              <div className="absolute -left-7 md:-left-[5.5rem] top-2 w-4 h-4 rounded-full bg-cyan-400 shadow-[0_0_16px_rgba(34,211,238,0.6)] ring-4 ring-[#07070d]" />
 
               <div className="glass-panel rounded-2xl p-6 md:p-8 hover:border-cyan-400/20 transition-all duration-400 group">
                 <div className="flex flex-wrap items-start justify-between gap-4 mb-4">

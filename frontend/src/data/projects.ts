@@ -5,7 +5,7 @@ export type Project = {
   impact: string;
   tech: string[];
   github: string;
-  demo: string;
+  demo?: string;
   featured?: boolean;
 };
 
@@ -31,7 +31,6 @@ export const projects: Project[] = [
       "Built and secured 20+ REST APIs using JWT authentication, role-based authorization, hashing, and server-side validation. Designed scalable MongoDB schemas and optimized database queries through indexing and efficient data retrieval, improving appointment and user-management API performance by approximately 35%.",
     tech: ["Node.js", "Express.js", "React.js", "MongoDB", "JWT", "RBAC", "AWS EC2"],
     github: "https://github.com/Pranav6197/HealthBooker",
-    demo: "[DEMO_URL_PLACEHOLDER]",
     featured: true,
   },
   {
@@ -43,7 +42,6 @@ export const projects: Project[] = [
       "Developed and secured REST API endpoints for authentication, user management, conversations, and message history using JWT-based authentication with HTTP Only cookies. Optimized MongoDB data models, indexing strategies, and backend validation pipelines, reducing message retrieval latency by approximately 40% while improving application scalability and reliability.",
     tech: ["Node.js", "Express.js", "MongoDB", "Socket.IO", "WebSocket", "Docker", "AWS EC2", "JWT"],
     github: "https://github.com/Pranav6197/Whisper",
-    demo: "[DEMO_URL_PLACEHOLDER]",
     featured: true,
   },
   {
@@ -55,7 +53,6 @@ export const projects: Project[] = [
       "Modeled complex CPU scheduling algorithms (FCFS, SJF, Priority Scheduling) and queue management to visualize performance trade-offs, resource utilization, and process state transitions in batch processing systems.",
     tech: ["C++", "Data Structures", "Operating Systems", "Algorithms", "CLI", "Process Management"],
     github: "https://github.com/Pranav6197/Batch-Operating-System-Simulation-",
-    demo: "[DEMO_URL_PLACEHOLDER]",
     featured: false,
   },
 ];

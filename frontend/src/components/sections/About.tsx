@@ -34,7 +34,7 @@ export function About() {
           <SectionHeading
             eyebrow="About"
             title="Engineering quality that recruiters can feel"
-            subtitle="I'm a Computer Engineering graduate from VIT Pune with hands-on experience as a Backend Developer at Codewits Solutions (Perimeters.io), focused on building systems that are secure, scalable, and thoughtfully designed."
+            subtitle="I'm a Computer Engineering graduate from VIT Pune with hands-on experience as a Backend Developer at Codewits Solutions Pvt. Ltd (Product :: Perimeters.io a.k.a  WatchGuard Cloud Detection and Response - CloudDR), focused on building systems that are secure, scalable, and thoughtfully designed."
           />
 
           <motion.div
@@ -68,7 +68,7 @@ export function About() {
           viewport={defaultViewport}
           transition={{ duration: 0.55 }}
         >
-          From internship work on Perimeters.io to full-stack projects like Travelgo and
+          From internship work on Product - Perimeters.io to full-stack projects like Travelgo and
           HealthBooker, I prioritize clean code, testable APIs, and developer experience. I enjoy
           owning the backend deeply—data modeling, auth, observability—while shipping polished
           React interfaces that complete the story.

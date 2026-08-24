@@ -13,9 +13,9 @@ export const experiences: ExperienceItem[] = [
   {
     role: "Backend Developer Intern",
     company: "Codewits Solutions Pvt. Ltd.",
-    product: "Perimeters.io",
+    product: "Perimeters.io a.k.a  WatchGuard Cloud Detection and Response (CloudDR)",
     period: "Dec 2025 — May 2026",
-    location: "Remote / Pune",
+    location: "Baner, Pune",
     type: "Internship",
     highlights: [
       "Architected and maintained scalable backend services and REST APIs using TypeScript, Node.js, MongoDB, and AWS Lambda, contributing to a microservices architecture for cloud-based SaaS workflows.",
