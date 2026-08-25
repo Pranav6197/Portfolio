@@ -5,7 +5,7 @@ export const profile = {
   email: "pranavbhawari10@gmail.com",
   phone: "+91 9175226197",
   location: "Pune, India",
-  resumePath: "https://drive.google.com/file/d/1TjP7ykq7EBN8eGRKXsOHZQpZ7v7pYhGm/view?usp=sharing",
+  resumePath: "https://drive.google.com/file/d/1hCTaY5DYooMkHcvbWQLEvAmWd0Z1yM_d/view?usp=sharing",
   social: {
     github: "https://github.com/Pranav6197",
     linkedin: "https://www.linkedin.com/in/pranav-bhawari-479b59280/",
